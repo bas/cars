@@ -1,5 +1,4 @@
 language: r
 sudo: false
-script:
-  - script: make cars
+script: make cars
 cache: packages
