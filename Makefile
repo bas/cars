@@ -3,3 +3,5 @@ render: speed-and-distance.Rmd
   
 clean:
   rm -rf *.html figure/ cache/
+  
+  

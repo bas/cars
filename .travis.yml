@@ -1,3 +1,4 @@
 language: r
 sudo: false
-script: make render
+script:
+  - R CMD -e 'rmarkdown::render("speed-and-distance.Rmd")'
