@@ -1,4 +1,4 @@
 language: r
 sudo: false
 script:
-  - R 'rmarkdown::render("speed-and-distance.Rmd")'
+  - R CMD rmarkdown::render("speed-and-distance.Rmd")
