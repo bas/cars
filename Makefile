@@ -1,7 +1,6 @@
 cars: speed-and-distance.Rmd
-  Rscript -e 'rmarkdown::render("$<")'
+	Rscript -e 'rmarkdown::render("$<")'
   
 clean:
-  rm -rf *.html figure/ cache/
-  
-  
+	rm -rf *.html figure/ cache/
+ 
