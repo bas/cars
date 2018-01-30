@@ -1,4 +1,4 @@
-render: speed-and-distance.Rmd
+cars: speed-and-distance.Rmd
   Rscript -e 'rmarkdown::render("$<")'
   
 clean:

@@ -1,4 +1,5 @@
 language: r
 sudo: false
 script:
-  - R CMD -e 'rmarkdown::render("speed-and-distance.Rmd")'
+  - script: make cars
+cache: packages
