@@ -32,3 +32,11 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 ```{r boxplot, echo=FALSE}
 boxplot(cars)
 ```
+
+## Add a distance histogram
+
+In the histogram below we see a histogram of the various distances.
+
+```{r disthist, echo = FALSE}
+hist(cars$dist, xlab = "Distance", main = "Historgram of distances")
+```
