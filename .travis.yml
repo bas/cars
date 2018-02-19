@@ -1,4 +1,11 @@
 language: r
 sudo: false
+
+r_packages:
+  - covr
+
 script: make cars
 cache: packages
+
+after_success:
+  - Rscript -e 'library(covr); codecov()'
